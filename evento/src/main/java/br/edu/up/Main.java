@@ -31,6 +31,8 @@ public class Main {
 
         System.out.println("===== Bem vindo ao EventManager =====");
 
+        // Realiza o cadastro dos Organizadores 
+        
         cadastrarOrganizador(scanner, organizador);
         int opt = scanner.nextInt();
         scanner.nextLine();
@@ -40,6 +42,8 @@ public class Main {
             scanner.nextLine();
         }
 
+        //chama as opções de evento, ingresso, participantes e relatório 
+        
         recursos();
 
     }
